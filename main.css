@@ -1,0 +1,81 @@
+/***********
+GENERAL
+************/
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;	
+	padding: 0 5%;
+}
+
+a {
+     text-decoration: none;
+}
+
+
+
+/***********
+HEADING
+************/
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+/********
+COLORS 
+********/
+
+/* SITE BODY*/
+body {
+	background-color: #fff;
+	color:#999;
+}
+
+/* GREEN HEADER */
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+/* NAV BACKGROUND ON MOBILE DEVICES */
+nav {
+	background: #599a68;
+}
+
+/* LOGO TEXT*/
+h1, h2 {
+	color: #fff;
+} 
+
+/*LINKS*/
+a {
+	color: #6ab47b;
+}
+
+/*NAV LINK*/
+nav a, nav a:visited {
+	color:#fff;
+}
+
+/*SELECTED NAV LINK*/
+nav a.selected, nav a:hover {
+	color:#32673f;
+}
+
