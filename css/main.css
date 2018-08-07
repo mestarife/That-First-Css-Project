@@ -26,6 +26,13 @@ img {
 HEADING
 ************/
 
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
 #logo {
 	text-align: center;
 	margin: 0;
@@ -57,7 +64,16 @@ nav {
 	margin: 20px 0 0;
 }
 
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	
+}
 
+nav li {
+	display: inline-block
+}
 
 /****************
 FOOTER
@@ -66,6 +82,7 @@ FOOTER
 footer {
 	font-size: 0.75em;
 	text-align: center;
+	clear: both;
 	padding-top: 50px;
 	color: #ccc;
 }
@@ -93,7 +110,13 @@ PAGE PORTFOLIO
 	color: #bdc3c7;
 }
 
-
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+	
+}
 
 /********
 COLORS 
