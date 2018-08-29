@@ -75,6 +75,10 @@ nav li {
 	display: inline-block
 }
 
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
 /****************
 FOOTER
 ****************/
@@ -87,10 +91,12 @@ footer {
 	color: #ccc;
 }
 
-footer img {
-	width: 60px;
-	height: 60px;
+.socialmedia {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
 }
+
 
 /****************
 PAGE PORTFOLIO
@@ -117,6 +123,11 @@ PAGE PORTFOLIO
 	color: #bdc3c7;
 	
 }
+
+/**************
+PAGE ABOUT
+***************/
+.profilephoto
 
 /********
 COLORS 
